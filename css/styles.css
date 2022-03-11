@@ -1,11 +1,10 @@
 :root {
     --blanco: #ffffff;
     --oscuro: #212121;
-    --primario: #00008b;
-    --secundario: #cf0a0abb;
-    --gris: #757575;
+    --primario: #0151ca;
+    --secundario:#0035a7;
+    --gris: #757575;   
 }
-
 
 html {
     font-size: 62.5%;
@@ -21,4 +20,30 @@ body {
 
 .titulo span {
     font-size: 2rem;
+}
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.nav-bg {
+    background-color: var(--secundario);
+}
+
+.navegacion-principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-principal a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--primario);
 }
